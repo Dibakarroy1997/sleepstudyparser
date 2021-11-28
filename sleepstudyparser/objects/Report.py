@@ -71,7 +71,3 @@ class Report:
             f"\nPLATFORM ROLE: {self.platform_role}"
             f"\n\nSTATES:\n{states_str}"
         )
-
-
-if __name__ == "__main__":
-    print(Report.make(r"C:\Users\debakarr\Downloads\SleepStudyReport_manual2.html"))
